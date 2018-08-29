@@ -27,4 +27,7 @@ describe('Resta', ()=>{
     test('Deberia retornar un número cuando solo se ingresa un parametro ', ()=>{
         expect(resta(5)).toBe(5);
     })
+    test('Deberia retornar un numero negativo ', ()=>{
+        expect(resta(-5,5)).toBe(-10);
+    })
 });
