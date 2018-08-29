@@ -1,0 +1,14 @@
+{
+  "name": "test_silvana",
+  "version": "1.0.0",
+  "description": "Taller de refuerzo de test con Jest",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Génesis Mauries",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
