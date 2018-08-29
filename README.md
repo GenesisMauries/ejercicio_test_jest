@@ -1,11 +1,11 @@
 # Inicio
 1) npm init
    - Crea el package.json
-   - [¿Que es package.json](https://medium.com/noders/t%C3%BA-yo-y-package-json-9553929fb2e3)
+   - [¿Que es package.json?](https://medium.com/noders/t%C3%BA-yo-y-package-json-9553929fb2e3)
 2) npm install --save-dev jest 
    - El -dev se usa cuando las dependencias son unicamente de desarrollo
 3) Se hace el archivo donde iran las funciones
-4) Se gera el archivo y/o carpeta donde se haran los test
+4) Se genera el archivo y/o carpeta donde se haran los test
 
 ## Anotaciones
 - Los test es una forma de pensar para corregir los errores que pudieran suceder
