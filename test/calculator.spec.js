@@ -1,4 +1,4 @@
-const { add, resta } = require('../calculator');
+const { add, resta, multiply, division } = require('../calculator');
 
 describe ('Suma', () =>{
     test('suma de dos numeros', () => {
@@ -31,3 +31,13 @@ describe('Resta', ()=>{
         expect(resta(-5,5)).toBe(-10);
     })
 });
+describe('Multiply', ()=>{
+    test('Deberia retornar la multiplicacion de dos numeros', ()=>{
+        expect(multiply(9,9)).toBe(81);
+    })
+});
+describe('Division', () =>{
+    test('Deberia retornar la division de dos numeros', () => {
+        expect(division(10,2)).toBe(5);
+    })
+})

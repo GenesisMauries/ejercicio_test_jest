@@ -10,7 +10,15 @@ const resta = (a,b) => {
     }
     return (!b && a ) || a - b;
 }
+const multiply = (a,b) =>{
+    return a * b;
+}
+const division = (a,b) =>{
+    return a / b ;
+}
 module.exports = {
     add,
-    resta
+    resta,
+    multiply,
+    division
 }
